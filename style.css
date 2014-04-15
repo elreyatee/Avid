@@ -1,0 +1,204 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+	font-family: 'Signika', Arial, sans-serif;
+	font-size: 16px;
+	/*-webkit-font-smoothing: antialiased;*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+header, footer {
+	height: 150px;
+	position: relative;
+	background-image: url('images/darkpat.jpg');
+	background-repeat: repeat;
+}
+
+header img {
+	display: inline-block;
+	float: left;
+}
+
+.info {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	display: inline-block;
+	text-align: right;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+}
+
+.nav {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	font-size: 1.25em;
+}
+
+.nav a:hover {
+	background-color: #9eb252;
+	text-shadow: 2px 2px #369100;
+}
+
+#intro {
+	display: inline-block;
+	width: 40%;
+	height: 567px;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.20);
+}
+
+#content {
+	background: url('images/S3_01.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 567px;
+	position: relative;
+}
+
+#intro p {
+	padding: 10px 20px 10px 20px;
+	text-align: justify;
+	color: #fefefc;
+	text-shadow: 2px 2px #342829;
+}
+
+.ratings {
+	text-align: center;
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
+}
+
+.ratings li {
+	display: inline;
+}
+
+.ratings a {
+	display: inline-block;
+}
+
+.ratings img {
+	width: 50px;
+	height: 50px;
+	margin: 0 15px;
+	border-radius: 5px;
+}
+
+img[alt="control4_sonos"] {
+	display: block;
+	background: #000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px;
+	margin-top: 20px;
+	color: #fefefc;
+	text-shadow: 2px 2px #342829;
+}
+
+.specialty {
+	background: url('images/004-subtle-light-pattern-background-texture.jpg');
+	background-repeat: repeat;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+}
+
+.specialty div {
+	width: 70%;
+	height: 160px;
+	position: relative;
+}
+
+.specialty img {
+	height: 110px;
+	width: 110px;
+	box-shadow: 5px 5px 5px #312424;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	float: left;
+}
+
+.specialty p {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.specialty h3 {
+	font-size: 1.75em;
+	margin: 25px 20px;
+	color: #9eb153;
+	text-shadow: 1px 1px #5f6062;
+}
+
+footer {
+	text-align: center;
+	height: 120px;
+}
+
+footer p {
+	font-size: 0.9em;
+	padding: 20px 10px;
+	color: #fefefc;
+	text-shadow: 2px 2px #342829;
+}
+
+.social li{
+	display: inline;
+}
+
+.social img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	padding: 10px 3px;
+}
+
+span {
+	color: #8f1480;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
